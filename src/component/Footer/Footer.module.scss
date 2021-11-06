@@ -1,0 +1,49 @@
+#footer {
+  border-top: 1px solid #ededed;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+
+  ul {
+    a {
+      display: inline-block;
+      font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #777;
+    }
+    
+    a:hover {
+      outline: 1px solid #ECD5D5;
+    }
+
+    a:first-child {
+      cursor: default;
+      margin-right: 60px;
+    }
+
+    a:first-child:hover {
+      outline: none;
+    }
+
+    a.btn {
+      margin-right: 10px;
+      padding: 3px 8px;
+    }
+
+    a.selected {
+      outline: 1px solid #ecd5d5;
+    }
+
+    a#clear {
+      margin-right: 0;
+      margin-left: 22px;
+      display: none
+    }
+
+    a#clear.appear {
+      display: inline-block;
+    }
+  }
+}
+#footer.hidden {
+  display: none;
+}
